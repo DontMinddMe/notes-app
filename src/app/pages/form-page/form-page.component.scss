@@ -1,0 +1,85 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+
+  .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    label {
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    input {
+      border: 0px;
+      background: #f8f8f8;
+      width: 400px;
+      padding: 10px 10px 8px 15px;
+      transition: 0.1s ease-in-out;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+
+      &:focus {
+        -webkit-box-shadow: 0px 0px 10px 2px rgba(94, 123, 229, 0.39);
+        -moz-box-shadow: 0px 0px 10px 2px rgba(94, 123, 229, 0.39);
+        box-shadow: 0px 0px 10px 2px rgba(94, 123, 229, 0.39);
+      }
+    }
+
+    textarea {
+      border: 0px;
+      background: #f8f8f8;
+      width: 400px;
+      height: 100px;
+      padding: 10px 10px 8px 15px;
+      transition: 0.1s ease-in-out;
+      outline: none;
+      border-radius: 5px;
+      font-size: 15px;
+
+      &:focus {
+        -webkit-box-shadow: 0px 0px 10px 2px rgba(94, 123, 229, 0.39);
+        -moz-box-shadow: 0px 0px 10px 2px rgba(94, 123, 229, 0.39);
+        box-shadow: 0px 0px 10px 2px rgba(94, 123, 229, 0.39);
+      }
+    }
+  }
+
+  .buttons-wrapper {
+    display: flex;
+    justify-content: flex-end;
+
+
+    button[type=button] {
+      border: none;
+      background-color: white;
+      text-decoration: underline;
+      font-size: 15px;
+
+      &:hover {
+        cursor: pointer;
+        color: #bbc6f8
+      }
+    }
+
+    button[type=submit] {
+      padding: 7px 10px 7px 10px;
+      font-size: 15px;
+      border: 0.5px solid #97f891;
+      border-radius: 2px;
+      background-color: #9bf8af;
+      transition: 0.2s ease-in-out;
+
+      margin-left: 10px;
+
+      &:hover {
+        cursor: pointer;
+        background-color: #77f87e;
+      }
+    }
+  }
+}

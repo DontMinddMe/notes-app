@@ -1,0 +1,8 @@
+<div class="content">
+  <div class="note-card" *ngFor="let item of items; let i = index" [routerLink]="['note', i]">
+    <div class="title">{{item.title}}</div>
+    <div class="body">{{item.body}}</div>
+  </div>
+</div>
+
+<button [routerLink]="['form']">+ Add</button>

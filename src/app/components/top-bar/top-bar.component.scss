@@ -1,0 +1,24 @@
+.header {
+  margin-bottom: 50px;
+  display: flex;
+  height: 70px;
+  background-image: linear-gradient(to right, #c41797, #ad47bb, #8b64d5, #5e7be5, #128deb);
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+
+  -webkit-box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      color: #c5c5c5;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<div class="form-container">
+  <form #addNoteForm="ngForm" (ngSubmit) = "onSubmit(addNoteForm)">
+    <div class="field">
+      <label>Title</label>
+      <input type="text" name="title" ngModel>
+    </div>
+
+    <div class="field">
+      <label>Body</label>
+      <textarea name="body" ngModel></textarea>
+    </div>
+
+    <div class="buttons-wrapper">
+      <button type="button" [routerLink]="['']">Cancel</button>
+      <button type="submit">Save</button>
+    </div>
+  </form>
+</div>
